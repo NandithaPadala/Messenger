@@ -46,5 +46,4 @@ npm run dev
 Make sure your backend and frontend are configured to connect properly
 
 📄 License
-This project is licensed under the MIT License.
-
+Nanditha Padala
