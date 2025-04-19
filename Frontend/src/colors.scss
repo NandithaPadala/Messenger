@@ -1,0 +1,52 @@
+// Define Colors
+$blue: #0d6efd;
+$blue-100: #cfe2ff;
+$blue-200: #9ec5fe;
+$blue-300: #6ea8fe;
+$blue-400: #3d8bfd;
+$blue-500: #0d6efd;
+$blue-600: #0a58ca;
+$blue-700: #084298;
+$blue-800: #052c65;
+$blue-900: #031633;
+
+$indigo: #6610f2;
+$indigo-100: #e0cffc;
+$indigo-200: #c29ffa;
+$indigo-300: #a370f7;
+$indigo-400: #8540f5;
+$indigo-500: #6610f2;
+$indigo-600: #520dc2;
+$indigo-700: #3d0a91;
+$indigo-800: #290661;
+$indigo-900: #140330;
+
+$purple: #6f42c1;
+$purple-100: #e2d9f3;
+$purple-200: #c5b3e6;
+$purple-300: #a98eda;
+$purple-400: #8c68cd;
+$purple-500: #6f42c1;
+$purple-600: #59359a;
+$purple-700: #432874;
+$purple-800: #2c1a4d;
+$purple-900: #160d27;
+
+$cyan:#0dcaf0;
+$cyan-800 : #1c5f6d;
+
+$gray-900 : #081421;
+
+// Add more colors as needed...
+
+// Generate Background Utility Classes
+@each $color, $value in (
+    blue: $blue,
+    indigo: $indigo,
+    purple: $purple,
+    cyan: $gray-900
+) {
+    .bg-#{"" + $color} {
+        background-color: $value !important;
+    }
+}

@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+
+#root {
+  /* max-width: 1080px;
+  margin:auto;
+  padding: 7rem; */
+  /* text-align: inline-flex; */
+  background-color: #020618;
+}
+
+
+.flex-scr::webkit-scrollbar{
+  display: none;
+}
+
+#right{
+  background-image: url(./assets/background.jpeg);
+  background-size:100%;
+}
