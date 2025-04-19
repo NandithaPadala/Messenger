@@ -25,7 +25,7 @@ git clone https://github.com/NandithaPadala/ChatApp.git
 ### 2. Install dependencies
 For both frontend and backend:
 
-Create the file backend/config.env with your Atlas URI and the server port:
+Create the file backend/.env with your Atlas URI and the server port:
 ```bash
 ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/
 PORT=5050
