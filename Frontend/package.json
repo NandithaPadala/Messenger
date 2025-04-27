@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cometchat-pro/chat": "^3.0.13",
+    "@cometchat/chat-sdk-javascript": "^4.0.12",
+    "@cometchat/chat-uikit-react": "^6.0.5",
     "@tailwindcss/postcss": "^4.1.4",
     "@tailwindcss/vite": "^4.1.4",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "firebase": "^11.6.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.4.1",
     "sort-by": "^1.2.0",
